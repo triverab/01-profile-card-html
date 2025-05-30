@@ -1,0 +1,55 @@
+body {
+  background-color: #add8e6; /* light blue */
+  font-family: Arial, sans-serif;
+}
+
+.profile-card {
+  background: #fff;
+  border: 2px solid #003366;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 32px 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  text-align: center;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  color: #003366; /* dark blue */
+}
+
+h2 {
+  font-size: 32px;
+  color: #708090; /* slate gray */
+}
+
+p {
+  font-size: 18px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.profile-card ul {
+  list-style: none;      /* Remove bullet points */
+  padding: 0;            /* Remove default padding */
+  margin-top: 20px;      /* Add space above the list */
+}
+
+.profile-card li {
+  margin-bottom: 10px;   /* Add space between list items */
+}
+
+.profile-card img {
+  display: block;
+  margin: 0 auto 20px auto; /* Center image and add space below */
+  width: 160px;
+  height: 160px;
+  object-fit: cover;        /* Ensures the image covers the circle */
+  border-radius: 50%;       /* Makes the image circular */
+  border: 3px solid #003366;/* Adds a dark blue border */
+}
